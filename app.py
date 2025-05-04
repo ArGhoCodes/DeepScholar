@@ -71,8 +71,8 @@ def predict_category(abstract, model, vectorizer, label_lookup):
     return predicted_labels
 
 # create app=========================================
-st.title('Research Papers Recommendation and Subject Area Prediction App')
-st.write("LLM and Deep Learning Base App")
+st.title('Deep-Scholar')
+st.write("Research Papers Recommendation and Subject Area Prediction App")
 
 input_paper = st.text_input("Enter Paper title.....")
 new_abstract = st.text_area("Past paper abstract....")
